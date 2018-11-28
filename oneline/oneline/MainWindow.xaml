@@ -1,0 +1,38 @@
+﻿<Window x:Class="oneline.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:oneline"
+        mc:Ignorable="d"
+        Title="littlemm" Height="450" Width="800">
+    <Grid >
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="62,48,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" Width="20" Name="Width"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="156,48,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" Width="19" x:Name="Height"/>
+        <Button Content="设置长宽" HorizontalAlignment="Left" Margin="203,51,0,0" VerticalAlignment="Top" Width="75" Click="GenerateGrid"/>
+
+        <Grid >
+
+            <StackPanel Name ="all" HorizontalAlignment="Center" VerticalAlignment="Center"></StackPanel>
+            <Grid Grid.Column="0" Name="BorderG" Height="200" Width="200" HorizontalAlignment="Center">
+
+                <StackPanel Name="col" Orientation="Horizontal"></StackPanel>
+                <StackPanel Name="row" Orientation="Vertical"></StackPanel>
+            </Grid >
+
+        <Grid Name="sphere" Grid.Column="0" Height="200" Width="200" HorizontalAlignment="Center">
+            <Canvas Name="canvas">
+
+                </Canvas>
+        </Grid>
+            <Button Content="Inv" HorizontalAlignment="Left" Margin="668,95,0,0" VerticalAlignment="Top" Width="75" Click="Inv"/>
+        </Grid>
+        
+
+        <TextBlock HorizontalAlignment="Left" Margin="497,51,0,0" TextWrapping="Wrap" Text="起点" VerticalAlignment="Top"/>
+        <TextBox Name="start_x" HorizontalAlignment="Left" Height="23" Margin="544,48,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="30"/>
+        <TextBox Name="start_y"  HorizontalAlignment="Left" Height="23" Margin="598,48,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="30"/>
+        <Button Content="计算" HorizontalAlignment="Left" Margin="665,51,0,0" VerticalAlignment="Top" Width="75" Click="Run"/>
+
+    </Grid>
+</Window>

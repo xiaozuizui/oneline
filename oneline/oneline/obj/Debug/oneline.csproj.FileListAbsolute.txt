@@ -1,0 +1,15 @@
+D:\oneline\oneline\oneline\bin\Debug\oneline.exe.config
+D:\oneline\oneline\oneline\bin\Debug\oneline.exe
+D:\oneline\oneline\oneline\bin\Debug\oneline.pdb
+D:\oneline\oneline\oneline\obj\Debug\oneline.csprojAssemblyReference.cache
+D:\oneline\oneline\oneline\obj\Debug\MainWindow.g.cs
+D:\oneline\oneline\oneline\obj\Debug\App.g.cs
+D:\oneline\oneline\oneline\obj\Debug\oneline_MarkupCompile.cache
+D:\oneline\oneline\oneline\obj\Debug\oneline_MarkupCompile.lref
+D:\oneline\oneline\oneline\obj\Debug\MainWindow.baml
+D:\oneline\oneline\oneline\obj\Debug\oneline.g.resources
+D:\oneline\oneline\oneline\obj\Debug\oneline.Properties.Resources.resources
+D:\oneline\oneline\oneline\obj\Debug\oneline.csproj.GenerateResource.cache
+D:\oneline\oneline\oneline\obj\Debug\oneline.csproj.CoreCompileInputs.cache
+D:\oneline\oneline\oneline\obj\Debug\oneline.exe
+D:\oneline\oneline\oneline\obj\Debug\oneline.pdb
